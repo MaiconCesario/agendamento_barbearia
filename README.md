@@ -36,9 +36,9 @@ No arquivo .env, ajuste as credenciais conforme seu ambiente local:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=barberhop
+DB_DATABASE=Seu_banco_de_dados
 DB_USERNAME=root
-DB_PASSWORD=
+DB_PASSWORD=Senha_do_banco_de_dados
 ```
 ## 6. Rodar as migrations e seeders
 
