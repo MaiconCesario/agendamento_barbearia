@@ -36,7 +36,7 @@
                 <tr class="border-t">
                     <td class="p-3">{{ $a->data_hora->format('d/m/Y H:i') }}</td>
                     <td class="p-3">{{ $a->cliente->nome }}</td>
-                    <td class="p-3">{{ $a->barbeiro ? $a->barbeiro->nome : '—' }}</td>
+                    <td class="p-3">{{ $a->barbeiro ? $a->barbeiro->name : '—' }}</td>
                     <td class="p-3">{{ $a->servico->nome }}</td>
                     <td class="p-3">{{ ucfirst($a->status) }}</td>
                     <td class="p-3">

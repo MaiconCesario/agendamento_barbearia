@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Agendamento;
 use App\Models\Cliente;
 use App\Models\Servico;
+use App\Models\Funcionario;
 use App\Models\User;
 use Illuminate\Http\Request;
 

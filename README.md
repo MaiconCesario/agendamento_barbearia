@@ -57,11 +57,11 @@ Acesse no navegador:
 👉 http://localhost:8000
 
 
-## 👥 Usuários Padrão (Seeder)
+## 👥 Usuário Padrão (Seeder)
 
 | Tipo          | Email            | Senha    |
 | ------------- | ---------------- | -------- |
-| Administrador | `adm@adm.com.br` | `123456` |
+| Administrador | `admin@barbearia.com` | `123456` |
 
 
 ## 📆 Funcionalidades Principais
