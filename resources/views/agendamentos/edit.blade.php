@@ -17,9 +17,9 @@
 
     <div>
         <label class="block mb-1">Barbeiro</label>
-        <select name="barbeiro_id" required class="w-full p-2 border rounded">
+        <select name="funcionario_id" required class="w-full p-2 border rounded">
             @foreach($barbeiros as $b)
-                <option value="{{ $b->id }}" @selected(old('barbeiro_id', $agendamento->barbeiro_id) == $b->id)>{{ $b->name }}</option>
+                <option value="{{ $b->id }}" @selected(old('funcionario_id', $agendamento->barbeiro_id) == $b->id)>{{ $b->name }}</option>
             @endforeach
         </select>
     </div>
